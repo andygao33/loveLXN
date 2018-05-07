@@ -1,0 +1,30 @@
+{
+  "name": "andygao",
+  "version": "1.0.0",
+  "description": "A demo to test this application",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andy",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.8.4",
+    "colors": "*",
+    "cssbeautify": "*",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "*",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-notify": "^3.1.0",
+    "gulp-plumber": "*",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-css-comments": "*",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "*",
+    "map-stream": "*",
+    "minimatch": "*",
+    "sass": "^1.0.0-beta.4"
+  }
+}
