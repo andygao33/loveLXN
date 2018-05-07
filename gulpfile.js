@@ -16,7 +16,7 @@ var uglify = require('gulp-uglify');//js文件压缩
 var rename = require('gulp-rename');
 
 var execSync = require('child_process').execSync;
-// var projectPath = execSync('git rev-parse --show-toplevel').toString().trim().replace(/\\n/g);
+var projectPath = execSync('git rev-parse --show-toplevel').toString().trim().replace(/\\n/g);
 
 // 指定要编译的目录
 var watchFilesPath = [
