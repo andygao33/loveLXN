@@ -1,14 +1,3 @@
-MYLOVE.test = {
-    _autoload: [
-    	['initTest', !!$('.test-btn').length]
-    ],
-
-    initTest: function() {
-        $(document).on('click', '#yes', function() {
-        	alert('123456');
-        });
-    }
-};
 function _autoload(){
 	$.each(MYLOVE,function(section,obj){
 		if($.isArray(obj._autoload)){

@@ -511,3 +511,43 @@ color: red;
 padding: 5px 10px;
 border: 1px solid gray;
 }
+
+.wrap {
+position: relative;
+width: 150px;
+height: 150px;
+overflow: hidden;
+}
+
+.circle {
+height: 100%;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+border: 20px solid red;
+border-radius: 50%;
+border-right-color: #1ac57e8a;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+border-bottom-color: #1ac57e8a;
+}
+
+.bottom {
+position: absolute;
+left: 0px;
+width: 100%;
+height: 50%;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+background: white;
+bottom: 0px;
+}
+
+.count {
+position: absolute;
+left: 55px;
+font-size: 30px;
+color: gray;
+z-index: 10;
+top: 43px;
+font-weight: 900;
+}
